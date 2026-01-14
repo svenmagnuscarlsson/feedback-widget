@@ -1,0 +1,32 @@
+{
+  "name": "feedback-widget",
+  "version": "1.0.0",
+  "description": "Lightweight feedback widget for visual bug reporting",
+  "main": "dist/feedback-widget.min.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/svenmagnuscarlsson/feedback.git"
+  },
+  "keywords": [
+    "feedback",
+    "widget",
+    "screenshot",
+    "bug-report"
+  ],
+  "author": "Sven Magnus Carlsson",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "rollup": "^4.9.6",
+    "rollup-plugin-postcss": "^4.0.2"
+  },
+  "dependencies": {
+    "html2canvas": "^1.4.1"
+  }
+}
